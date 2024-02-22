@@ -1,0 +1,48 @@
+{
+  "name": "linkedin",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.5.0",
+    "@mui/material": "^5.3.0",
+    "@next-auth/mongodb-adapter": "^1.0.1",
+    "axios": "^0.26.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.18.2",
+    "framer-motion": "^5.6.0",
+    "mongodb": "^4.16.0",
+    "next": "^12.3.4",
+    "next-auth": "^4.23.1",
+    "next-themes": "^0.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-youtube": "^7.14.0",
+    "recoil": "^0.5.2",
+    "request-promise": "^0.0.1",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "timeago-react": "^3.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.8",
+    "nodemon": "^3.0.1",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
+}
